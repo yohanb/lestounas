@@ -4,6 +4,16 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)", "i"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
@@ -13,6 +23,8 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
+    
+    
 });
 
 // Highlight the top nav as scrolling occurs
@@ -49,3 +61,10 @@ google.maps.event.addListener(marker, 'click', function() {
 
 // Slippry slider configuration
 $("#slider").slippry({ pager: false, autoHover: false });
+
+$(function(){
+    var isEurope = getParameterByName("europe");
+    if (isEurope !== null) {
+        $("#noKids").hide();
+    }
+})

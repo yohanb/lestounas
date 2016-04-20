@@ -37,7 +37,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Patua One", cursive;
+  font-family: "Poiret One", cursive;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -54,7 +54,7 @@ h6 {
   color: white;
   background-color: #fed136;
   border-color: #fed136;
-  font-family: "Patua One", cursive;
+  font-family: "Poiret One", cursive;
   text-transform: uppercase;
   font-weight: 700;
 }
@@ -98,7 +98,7 @@ fieldset[disabled] .btn-primary.active {
   color: white;
   background-color: #fed136;
   border-color: #fed136;
-  font-family: "Patua One", cursive;
+  font-family: "Poiret One", cursive;
   text-transform: uppercase;
   font-weight: 700;
   border-radius: 3px;
@@ -169,7 +169,7 @@ fieldset[disabled] .btn-xl.active {
   background-color: #fed136;
 }
 .navbar-default .nav li a {
-  font-family: "Patua One", cursive;
+  font-family: "Poiret One", cursive;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
@@ -297,6 +297,15 @@ header .intro-text .wreath span {
   max-width: 600px;
   margin: 0 auto;
 }
+#home p {
+  display: inline-block;
+  vertical-align: middle;
+}
+#home .fa-heart {
+  vertical-align: middle;
+  font-size: 25px;
+  color: red;
+}
 .embed-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -320,6 +329,8 @@ section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 15px;
+  font-family: "Poiret One", cursive;
+  text-transform: uppercase;
 }
 section h3.section-subheading {
   margin-top: 40px;
@@ -612,27 +623,27 @@ section#contact .form-control:focus {
   box-shadow: none;
 }
 section#contact ::-webkit-input-placeholder {
-  font-family: "Patua One", cursive;
+  font-family: "Poiret One", cursive;
   text-transform: uppercase;
   font-weight: 700;
   color: #bbbbbb;
 }
 section#contact :-moz-placeholder {
   /* Firefox 18- */
-  font-family: "Patua One", cursive;
+  font-family: "Poiret One", cursive;
   text-transform: uppercase;
   font-weight: 700;
   color: #bbbbbb;
 }
 section#contact ::-moz-placeholder {
   /* Firefox 19+ */
-  font-family: "Patua One", cursive;
+  font-family: "Poiret One", cursive;
   text-transform: uppercase;
   font-weight: 700;
   color: #bbbbbb;
 }
 section#contact :-ms-input-placeholder {
-  font-family: "Patua One", cursive;
+  font-family: "Poiret One", cursive;
   text-transform: uppercase;
   font-weight: 700;
   color: #bbbbbb;
@@ -646,14 +657,14 @@ footer {
 }
 footer span.copyright {
   line-height: 40px;
-  font-family: "Patua One", cursive;
+  font-family: "Poiret One", cursive;
   text-transform: uppercase;
   text-transform: none;
 }
 footer ul.quicklinks {
   margin-bottom: 0;
   line-height: 40px;
-  font-family: "Patua One", cursive;
+  font-family: "Poiret One", cursive;
   text-transform: uppercase;
   text-transform: none;
 }
